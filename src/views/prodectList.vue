@@ -25,7 +25,7 @@
                     </div>
                     <div class="jieShao">
                         <div class="title">
-                            <span>电影：</span>
+                            <span>姓名：</span>
                             {{pd.name}}
                         </div>
                         <div class="zong">
@@ -112,16 +112,16 @@
                 setTimeout(() => {
 
                     var listData = [
-                        {'name':'huo1','jianjie':'sjajskj'},
-                        {'name':'huo2','jianjie':'sjajskj'},
-                        {'name':'huo3','jianjie':'sjajskj'},
-                        {'name':'huo4','jianjie':'sjajskj'},
-                        {'name':'huo5','jianjie':'sjajskj'},
-                        {'name':'huo6','jianjie':'sjajskj'},
-                        {'name':'huo7','jianjie':'sjajskj'},
-                        {'name':'huo8','jianjie':'sjajskj'},
-                        {'name':'huo9','jianjie':'sjajskj'},
-                        {'name':'huo10','jianjie':'sjajskj'}
+                        {'name':'周杰伦1','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦2','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦3','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦4','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦5','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦6','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦7','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦8','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦9','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
+                        {'name':'周杰伦10','jianjie':'《一路向北》是一首英式抒情摇滚歌曲 [3]'},
                     ];
 
                     if (pdType === 0) {
@@ -223,9 +223,11 @@
 
 
         .list-data{
+            box-sizing: border-box;
             display: flex;
             height: auto;
             border-bottom: 1px solid #e3e3e3;
+            padding: 10px 20px;
             .img{
                 width: 150px;
                 height: 80px;
@@ -240,10 +242,10 @@
                 flex: 1;
                 padding-left: 30px;
                 .title{
-                    height: 30px;
+
                 }
                 .zong{
-                    height: 50px;
+
                 }
             }
         }
